@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom</title>
+    <link rel="stylesheet" href="./css/stule.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div>
+                <a href="./index.html" class="Bloom">Bloom</a>
+            </div>
+
+            <div class="search">
+                <img class="search_img" src="./img/Vector.png" alt="">
+                <input class="input" type="text">
+                <div class="language">
+                    <p>UA</p>
+                    <img class="language_img" src="./img/Vector4.png" alt="">
+                </div>
+            </div>
+            <div>
+                <button class="selected">
+                    <img class="selected_img" src="./img/free-icon-font-heart-3916585.svg" alt="">
+                    <p>Обране</p>
+                </button>
+
+            </div>
+            <div>
+                <button class="Basket" id="open-modal-btn">
+                    <img class="Basket_img" src="./img/free-icon-font-basket-shopping-simple-9795316.svg" alt="">
+                    <p>Кошик</p>
+                </button>
+            </div>
+            <div>
+                <button class="Exit">
+                    <img class="Exit_img" src="./img/free-icon-font-circle-user-9821492.svg" alt="">
+                    <p>Вхід</p>
+                </button>
+            </div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section class="products">
+    <main class="main_main">
+        
+        <div class="main_1 mains">
+            <a href="./blouse.html" class="block_1 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+            <a href="./blouse.html" class="block_2 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+            <a href="./blouse.html" class="block_3 products" >
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+            <a href="./blouse.html" class="block_4 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+        </div>
+        <div class="main_2 mains">
+            <a href="./dress.html" class="block_5 products">
+                <img class="block_5_img" src="./img/image 102.png" alt="" > 
+                <h4 class="name">Плаття Guссi</h4>
+                <h2 class="name_price">1000 $</h2>
+            </a>
+
+            <a href="./dress.html" class="block_6 products">
+                <img class="block_6_img" src="./img/image 102.png" alt="" > 
+                <h4 class="name">Плаття Guссi</h4>
+                <h2 class="name_price">1000 $</h2>
+            </a>
+
+            <a href="./dress.html" class="block_7 products">
+                <img class="block_7_img" src="./img/image 102.png" alt="" > 
+                <h4 class="name">Плаття Guссi</h4>
+                <h2 class="name_price">1000 $</h2>
+            </a>
+            <a href="./dress.html" class="block_8 products">
+                <img class="block_8_img" src="./img/image 102.png" alt="" > 
+                <h4 class="name">Плаття Guссi</h4>
+                <h2 class="name_price">1000 $</h2>
+            </a>
+
+        </div>
+        <div class="main_2 mains">
+            <a href="./blouse.html" class="block_1 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+            <a href="./blouse.html" class="block_2 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+            <a href="./blouse.html" class="block_3 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+            <a href="./blouse.html" class="block_4 products">
+                <img src="./img/image 2.png" alt="">
+                <h4 class="name">Синя Кофта Guссi</h4>
+                <h2 class="name_price">1100 $</h2>
+            </a>
+
+        </div>
+
+    </main>
+</section>
+    <section class="modal" id="my-modal">
+        <div class="modal_dox">
+            <button class="modal_close-btn" id="close-my-modal-btn">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                    <path
+                        d="M11.83,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l8.17-8.17a3,3,0,0,0,0-4.24L11.12,1.71A1,1,0,1,1,12.54.29l8.17,8.17a5,5,0,0,1,0,7.08l-8.17,8.17A1,1,0,0,1,11.83,24Z" />
+                    <path
+                        d="M1.83,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l9.59-9.58a1,1,0,0,0,0-1.42L1.12,1.71A1,1,0,0,1,2.54.29l9.58,9.59a3,3,0,0,1,0,4.24L2.54,23.71A1,1,0,0,1,1.83,24Z" />
+                </svg>
+            </button>
+            <h2 class="">Кошик</h2>
+            
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <a class="footer_Bloom" href="./index.html">Bloom</a>
+        <a href=""> <img src="./img/free-icon-instagram-4494488.png" alt="" width="50px"> </a>
+        <a href=""> <img src="./img/free-icon-telegram-3670070.png" alt="" width="50px"> </a>
+        <a href="https://www.youtube.com"> <img src="./img/free-icon-youtube-4494485.png" alt="" width="50px"> </a>
+
+        <a class="number" href="#">+380984673732</a>
+    </footer>
+    <script defer src="./js/form.js"></script>
+    <script defer src="./js/counter.js"></script>
+    <script defer src="./js/cart-01.js"></script>
+</body>
+
+</html>

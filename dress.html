@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stule.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div>
+                <a href="./index.html" class="Bloom">Bloom</a>
+            </div>
+
+            <div class="search">
+                <img class="search_img" src="./img/Vector.png" alt="">
+                <input class="input" type="text">
+                <div class="language">
+                    <p>UA</p>
+                    <img class="language_img" src="./img/Vector4.png" alt="">
+                </div>
+            </div>
+            <div>
+                <button class="selected" class="selected_btn" id="">
+                    <img class="selected_img" src="./img/free-icon-font-heart-3916585.svg" alt="">
+                    <p>Обране</p>
+                </button>
+
+            </div>
+            <div>
+                <button class="Basket" id="open-modal-btn">
+                    <img class="Basket_img" src="./img/free-icon-font-basket-shopping-simple-9795316.svg" alt="">
+                    <p>Кошик</p>
+                </button>
+            </div>
+            <div>
+                <button class="Exit" class="Exit_btn">
+                    <img class="Exit_img" src="./img/free-icon-font-circle-user-9821492.svg" alt="">
+                    <p>Вхід</p>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="line"></div>
+    <main class="internal_main" data-id="001">
+        <div class="block_internal_1">
+            <div class="internal_small_all">
+                <img class="internal_small" src="./img/image 10.png" alt="" width="100px">
+                <img class="internal_small" src="./img/image 101.png" alt="" width="100px">
+                <img class="internal_small" src="./img/image 2.png" alt="" width="100px">
+            </div>
+
+            <img class="internal_img" src="./img/image 102.png" alt="">
+            <div class="internal_body_1">
+                <h3 data-items-in-box class="internal_name">Плаття Guссi </h3>
+                <h2 class="internal_price">1000$</h2>
+                <div class="bookkeeper">
+                    
+                        <button data-action="plus" class="bookkeeper_btn" id="plus">-</button>
+                        <p data-counter class="number" id="bookkeeper">1</p>
+                        <button data-action="minus" class="bookkeeper_btn" id="minus">+</button>
+                    
+                </div>
+                <div class="sizes">
+                    <button class="size">XS</button>
+                    <button class="size">S</button>
+                    <button class="size">M</button>
+                    <button class="size">L</button>
+                    <button class="size">XL</button>
+                </div>
+
+                <button data-cart class="TO_THE_BASKET" id="open-modal-btn-1">В КОРЗИНУ</button>
+
+            </div>
+
+        </div>
+
+    </main>
+    <section class="modal " id="my-modal">
+        
+        <div cart-wrapper class="modal_dox">
+            <div class="cart-wrapper">
+            <button class="modal_close-btn" id="close-my-modal-btn">
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                    <path
+                        d="M11.83,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l8.17-8.17a3,3,0,0,0,0-4.24L11.12,1.71A1,1,0,1,1,12.54.29l8.17,8.17a5,5,0,0,1,0,7.08l-8.17,8.17A1,1,0,0,1,11.83,24Z" />
+                    <path
+                        d="M1.83,24a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l9.59-9.58a1,1,0,0,0,0-1.42L1.12,1.71A1,1,0,0,1,2.54.29l9.58,9.59a3,3,0,0,1,0,4.24L2.54,23.71A1,1,0,0,1,1.83,24Z" />
+                </svg>
+            </button>
+            <h2 class="">Кошик</h2>
+            
+            <button class=" To_order">Оформити заказ</button>
+                </div>
+            </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer_Bloom">
+            <a href=".//index.html">Bloom</a>
+        </div>
+        <a href=""> <img src="./img/free-icon-instagram-4494488.png" alt="" width="60px"> </a>
+        <a href=""> <img src="./img/free-icon-telegram-3670070.png" alt="" width="60px"> </a>
+        <a href="https://www.youtube.com"> <img src="./img/free-icon-youtube-4494485.png" alt="" width="60px"> </a>
+
+
+    </footer>
+    <script defer src="./js/form.js"></script>
+    <script defer src="./js/counter.js"></script>
+    <script defer src="./js/cart-01.js"></script>
+</body>
+
+</html>
