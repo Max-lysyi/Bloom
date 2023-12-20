@@ -15,15 +15,25 @@ window.addEventListener ('click', function (event){
       }
       console.log(productInfo)
 
+
+
+
+
+//const itemInCart = cartWrapper.querySelector('[data_id="' + productInfo.id + '"]')
+
+
+
+
       const cartItrmHTML = `
       <div class="block_1_add" id="my-modal_1">
                 <img src="./img/image 2.png" alt="" width="150vh">
                 <div>
                     <h4 class="name">Синя Кофта Guссi</h4>
                     <h2 class="name_price">1100 $</h2>
-                    <p></p>
-                    <p>Розмір</p>
-                    <button class="" id="close-my-modal-btn_one"">Забрати з кошика</button>
+                    <div class="name_bloc">
+                      <p class="size_add">Розмір: </p>
+                      <button class="" id="close-my-modal-btn_one"">X</button>
+                    </div>
                </div>
             </div>`;
 
@@ -34,3 +44,12 @@ window.addEventListener ('click', function (event){
     }
 
 })
+
+window.addEventListener('click', function (event){
+  console.log(event.target.dataset.size)
+//if (event.target.dataset.size){
+
+//}
+
+
+});

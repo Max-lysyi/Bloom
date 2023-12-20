@@ -8,6 +8,7 @@
     <title>Bloom</title>
     <link rel="stylesheet" href="./css/stule.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -20,7 +21,19 @@
 
             <div class="search">
                 <img class="search_img" src="./img/Vector.png" alt="">
-                <input class="input" type="text">
+                <div class="">
+                    <input class="input" type="text" id="input">
+                    <div class="input_li" id="input_li">
+                        <ul class="input">
+                            <li><a href="./blouse.html">blue blouse Guссi</a></li>
+                            <li><a href="./dress.html">dress Guссi</a></li>
+                            <li><a href="">dress</a></li>
+                            <li><a href="">blue</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="language">
                     <p>UA</p>
                     <img class="language_img" src="./img/Vector4.png" alt="">
@@ -40,7 +53,7 @@
                 </button>
             </div>
             <div>
-                <button class="Exit">
+                <button class="Exit" id="open-form-modal-btn">
                     <img class="Exit_img" src="./img/free-icon-font-circle-user-9821492.svg" alt="">
                     <p>Вхід</p>
                 </button>
@@ -48,88 +61,158 @@
             <div class="line"></div>
         </div>
     </header>
-    <section class="products">
-    <main class="main_main">
-        
-        <div class="main_1 mains">
-            <a href="./blouse.html" class="block_1 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
+    <section class="products animate__animated animate__fadeInUp">
+        <main class="main_main" id="main">
 
-            <a href="./blouse.html" class="block_2 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
+            <div class="main_1 mains">
+                <a href="./blouse.html" class="block_1 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
 
-            <a href="./blouse.html" class="block_3 products" >
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
-            <a href="./blouse.html" class="block_4 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
+                <a href="./blouse.html" class="block_2 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+
+                <a href="./blouse.html" class="block_3 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+                <a href="./blouse.html" class="block_4 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+
+            </div>
+            <div class="main_2 mains">
+                <a href="./dress.html" class="block_5 products">
+                    <img class="block_5_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+                <a href="./dress.html" class="block_6 products">
+                    <img class="block_6_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+                <a href="./dress.html" class="block_7 products">
+                    <img class="block_7_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+                <a href="./dress.html" class="block_8 products">
+                    <img class="block_8_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+            </div>
+            <div class="main_2 mains">
+                <a href="./blouse.html" class="block_1 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+
+                <a href="./blouse.html" class="block_2 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+
+                <a href="./blouse.html" class="block_3 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+                <a href="./blouse.html" class="block_4 products">
+                    <img src="./img/image 2.png" alt="">
+                    <h4 class="name">blue blouse Guссi</h4>
+                    <h2 class="name_price">1100 $</h2>
+                </a>
+
+            </div>
+            <div class="main_2 mains">
+                <a href="./dress.html" class="block_5 products">
+                    <img class="block_5_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+                <a href="./dress.html" class="block_6 products">
+                    <img class="block_6_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+                <a href="./dress.html" class="block_7 products">
+                    <img class="block_7_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+                <a href="./dress.html" class="block_8 products">
+                    <img class="block_8_img" src="./img/image 102.png" alt="">
+                    <h4 class="name">dress Guссi</h4>
+                    <h2 class="name_price">1000 $</h2>
+                </a>
+
+            </div>
+
+        </main>
+    </section>
+    <div class="modal-bgd" id="form-modal">
+
+        <div class="modal-form-container">
+            <button class="close-btn">x</button>
+            <form action="#" class="modal-form" data-netlify="true" id="form">
+
+                <h2 class="modal-form-title">Вхід/Реєстрація</h2>
+
+
+
+                <div class="modal-form-field">
+                    <label for="user-name" class="modal-field-name">Ім’я</label>
+                    <input required type="text" class="modal-field-input" id="user-name" name="Ім’я">
+                </div>
+                <div class="modal-form-field">
+                    <label for="user-email" class="modal-field-name">Email</label>
+                    <input required type="email" class="modal-field-input" id="user-email" name="Email">
+                </div>
+
+
+                <button class="modal-form-btn" id="launch-btn">Вхід</button>
+
+            </form>
 
         </div>
-        <div class="main_2 mains">
-            <a href="./dress.html" class="block_5 products">
-                <img class="block_5_img" src="./img/image 102.png" alt="" > 
-                <h4 class="name">Плаття Guссi</h4>
-                <h2 class="name_price">1000 $</h2>
-            </a>
 
-            <a href="./dress.html" class="block_6 products">
-                <img class="block_6_img" src="./img/image 102.png" alt="" > 
-                <h4 class="name">Плаття Guссi</h4>
-                <h2 class="name_price">1000 $</h2>
-            </a>
+    </div>
+    <div class="modal-bgd " id="success-modal">
 
-            <a href="./dress.html" class="block_7 products">
-                <img class="block_7_img" src="./img/image 102.png" alt="" > 
-                <h4 class="name">Плаття Guссi</h4>
-                <h2 class="name_price">1000 $</h2>
-            </a>
-            <a href="./dress.html" class="block_8 products">
-                <img class="block_8_img" src="./img/image 102.png" alt="" > 
-                <h4 class="name">Плаття Guссi</h4>
-                <h2 class="name_price">1000 $</h2>
-            </a>
 
-        </div>
-        <div class="main_2 mains">
-            <a href="./blouse.html" class="block_1 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
+        <div class="modal-form modal-form-container">
+            <button class="close-btn">x</button>
+            <img src="./img/trezub.svg" alt="ukr logo">
+            <h4 class="modal-form-title">Дякуємо, гусь успішно запущений</h4>
+            <p class=" modal-from-descr modal-descr">Слава Україні! Героям Слава!</p>
 
-            <a href="./blouse.html" class="block_2 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
 
-            <a href="./blouse.html" class="block_3 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
-            <a href="./blouse.html" class="block_4 products">
-                <img src="./img/image 2.png" alt="">
-                <h4 class="name">Синя Кофта Guссi</h4>
-                <h2 class="name_price">1100 $</h2>
-            </a>
+
 
         </div>
 
-    </main>
-</section>
-    <section class="modal" id="my-modal">
+
+
+
+    </div>
+    <section class="modal animate__animated animate__backInRight" id="my-modal">
         <div class="modal_dox">
             <button class="modal_close-btn" id="close-my-modal-btn">
                 <?xml version="1.0" encoding="UTF-8"?>
@@ -141,12 +224,12 @@
                 </svg>
             </button>
             <h2 class="">Кошик</h2>
-            
+
         </div>
 
     </section>
 
-    <footer class="footer">
+    <footer class="footer animate__animated animate__fadeInUp">
         <a class="footer_Bloom" href="./index.html">Bloom</a>
         <a href=""> <img src="./img/free-icon-instagram-4494488.png" alt="" width="50px"> </a>
         <a href=""> <img src="./img/free-icon-telegram-3670070.png" alt="" width="50px"> </a>
@@ -157,6 +240,8 @@
     <script defer src="./js/form.js"></script>
     <script defer src="./js/counter.js"></script>
     <script defer src="./js/cart-01.js"></script>
+    <script defer src="./js/form-01.js"></script>
+    <script defer src="./js/input.js"></script>
 </body>
 
 </html>
